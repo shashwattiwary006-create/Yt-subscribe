@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: Arial, sans-serif;
+
+  background: #111;
+  color: white;
+}
+
+.container {
+  width: 92%;
+  max-width: 520px;
+
+  margin: auto;
+
+  padding: 30px 0 50px;
+
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 8px;
+
+  color: #f5c542;
+
+  font-size: 28px;
+}
+
+.subtitle {
+  color: #bbbbbb;
+
+  margin-bottom: 25px;
+}
+
+.card {
+  position: relative;
+
+  margin-top: 25px;
+
+  padding: 25px 20px;
+
+  background: #1d1d1d;
+
+  border: 1px solid #444;
+
+  border-radius: 12px;
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.45);
+}
+
+.step-number {
+  position: absolute;
+
+  top: -14px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #f5c542;
+
+  color: #111;
+
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 10px;
+
+  color: #f5c542;
+}
+
+p {
+  color: #dddddd;
+
+  line-height: 1.5;
+}
+
+.btn {
+  width: 100%;
+
+  display: block;
+
+  margin-top: 14px;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  text-decoration: none;
+
+  transition: transform 0.15s;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+/* RED BUTTON */
+
+.red {
+  background: #d62828;
+
+  color: white;
+}
+
+/* GOLD BUTTON */
+
+.gold {
+  background: #f5c542;
+
+  color: #111;
+}
+
+/* LOCKED BUTTON */
+
+.locked {
+  background: #4a4a4a;
+
+  color: #aaaaaa;
+
+  cursor: not-allowed;
+}
+
+/* HIDE STEPS */
+
+.hidden {
+  display: none;
+}
+
+/* CODE */
+
+.code-box {
+  margin-top: 15px;
+
+  padding: 18px;
+
+  background: #090909;
+
+  border: 2px dashed #f5c542;
+
+  border-radius: 10px;
+
+  color: #f5c542;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  word-break: break-all;
+}
+
+/* INFORMATION BOX */
+
+.info-box {
+  margin-top: 20px;
+
+  padding: 15px;
+
+  text-align: left;
+
+  background: #252525;
+
+  border-left: 4px solid #d62828;
+
+  border-radius: 8px;
+}
+
+.info-box strong {
+  color: #f5c542;
+}
+
+.info-box p {
+  margin-bottom: 0;
+
+  font-size: 14px;
+}
+
+.small {
+  font-size: 13px;
+
+  color: #999;
+}
