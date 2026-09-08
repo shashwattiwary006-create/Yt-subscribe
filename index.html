@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Get Redeem Code</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>🎁 Get Your Redeem Code</h1>
+
+    <p class="subtitle">
+      Complete all steps to unlock your redeem code.
+    </p>
+
+
+    <!-- STEP 1 -->
+
+    <section class="card" id="step1">
+
+      <div class="step-number">1</div>
+
+      <h2>Subscribe</h2>
+
+      <p>
+        Open our YouTube channel and subscribe.
+        Then return to this website.
+      </p>
+
+      <a
+        href="https://youtube.com/@aistoriesv7?si=wqxJXIz5C0YBh8Rx"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn red"
+        id="subscribeBtn"
+      >
+        ▶ Subscribe on YouTube
+      </a>
+
+      <button class="btn locked" id="next1" disabled>
+        🔒 Next Locked
+      </button>
+
+    </section>
+
+
+    <!-- STEP 2 -->
+
+    <section class="card hidden" id="step2">
+
+      <div class="step-number">2</div>
+
+      <h2>Like the Video</h2>
+
+      <p>
+        Open the video and like it.
+        Return here to unlock the next step.
+      </p>
+
+      <a
+        href="https://youtube.com/shorts/4b5_Hkjck-s?feature=share"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn red"
+        id="likeBtn"
+      >
+        👍 Open Video
+      </a>
+
+      <button class="btn locked" id="next2" disabled>
+        🔒 Next Locked
+      </button>
+
+    </section>
+
+
+    <!-- STEP 3 -->
+
+    <section class="card hidden" id="step3">
+
+      <div class="step-number">3</div>
+
+      <h2>View All Videos</h2>
+
+      <p>
+        Open our YouTube channel and view our videos.
+        Then return to this website.
+      </p>
+
+      <a
+        href="https://youtube.com/@aistoriesv7?si=wqxJXIz5C0YBh8Rx"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn red"
+        id="videosBtn"
+      >
+        ▶ View All Videos
+      </a>
+
+      <button class="btn locked" id="next3" disabled>
+        🔒 Next Locked
+      </button>
+
+    </section>
+
+
+    <!-- STEP 4 -->
+
+    <section class="card hidden" id="step4">
+
+      <div class="step-number">4</div>
+
+      <h2>Share With 5 Friends</h2>
+
+      <p>
+        Share our YouTube channel with your friends on WhatsApp.
+      </p>
+
+      <button class="btn red" id="shareBtn">
+        📲 Share on WhatsApp
+      </button>
+
+      <button class="btn locked" id="next4" disabled>
+        🔒 Next Locked
+      </button>
+
+    </section>
+
+
+    <!-- STEP 5 -->
+
+    <section class="card hidden" id="step5">
+
+      <div class="step-number">5</div>
+
+      <h2>Final Step</h2>
+
+      <p>
+        You have completed all the steps.
+      </p>
+
+      <button class="btn gold" id="getCodeBtn">
+        🎁 Get Redeem Code
+      </button>
+
+    </section>
+
+
+    <!-- REWARD -->
+
+    <section class="card hidden" id="reward">
+
+      <h2>🎉 Congratulations!</h2>
+
+      <p>Your redeem code is:</p>
+
+      <div class="code-box" id="redeemCode">
+        Loading...
+      </div>
+
+
+      <div class="info-box">
+
+        <strong>⚠️ Code not working?</strong>
+
+        <p>
+          If this redeem code does not work, wait for our next video.
+          New redeem codes may be available in future videos.
+        </p>
+
+      </div>
+
+
+      <p class="small">
+        Save your code before closing this page.
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
